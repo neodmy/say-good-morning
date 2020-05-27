@@ -1,0 +1,32 @@
+{
+  "name": "say-good-morning",
+  "version": "1.0.0",
+  "description": "Say good morning in a different language every time",
+  "main": "src/index.js",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neodmy/say-good-morning.git"
+  },
+  "keywords": [
+    "good",
+    "morning",
+    "translate"
+  ],
+  "author": "David Miguel Yusta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neodmy/say-good-morning/issues"
+  },
+  "homepage": "https://github.com/neodmy/say-good-morning#readme"
+}
