@@ -15,7 +15,7 @@ const generateGoodMorning = () => {
   const flag = slackEmojis[`flag-${randomLanguage.code}`];
   const emoji = (flag && Object.keys(slackEmojis).find((key) => slackEmojis[key] === flag)) || getRandom(slackEmojis, 'object');
   translate('Good Morning', { to: randomLanguage.code }).then((res) => {
-    process.stdout.write(`${res.text} (${randomLanguage.lang}) :${emoji}:\n`);
+    process.stdout.write(`*${res.text}* (${randomLanguage.lang}) :${emoji}:\n`);
   }).catch(() => {});
 };
 
