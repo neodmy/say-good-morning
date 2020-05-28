@@ -6,7 +6,7 @@ Just run
 npm start
 ```
 
-And get a 'Good Morning' in a random language with its Slack flag emoji (otherwise, gets a random emoji).
+And get a 'Good Morning' in a random language with its Slack emoji flag (otherwise, gets a random emoji).
 
 Example:
 
